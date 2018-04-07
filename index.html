@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="title">Simon Game</div>
+<div class="container">
+  <div class="row row2">
+       <a class="btn btn-primary" id="start" onClick="start()">Start</a>&nbsp;<a class="btn btn-primary" id="counter"></a>&nbsp;<a class="btn btn-primary" id="strict" onClick="strictMode()">Strict</a>
+    <div class="cold-md-12"></br><button id="on" onClick="onOff()">On</button>&nbsp;<button id="off" onClick="onOff()">Off</button></div>
+    <div class="cold-md-12"></div>
+  </div>
+</div>
+<div class="container">
+  <div class="row row3">
+    <div class="cold-md-12">
+       <button id="s1" onClick="playermoves(this.id)"></button>
+       <button id="s2" onClick="playermoves(this.id)"></button>
+       <button id="s3" onClick="playermoves(this.id)"></button>
+       <button id="s4" onClick="playermoves(this.id)"></button>
+    </div>
+    
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
