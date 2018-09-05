@@ -1,5 +1,3 @@
-/* Simon Game with an alternative style developed by Pierre Macedo */
-
 const configs = {squares: ["s1", "s2", "s3", "s4" ], 
 sequence: [], 
 playersequence: [], 
